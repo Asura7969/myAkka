@@ -12,6 +12,9 @@ import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
+/**
+ * https://www.lightbend.com/activator/template/hello-akka#code/src/main/scala/HelloAkkaScala.scala
+ */
 public class HelloAkkaJava {
 
     public static class Greet implements Serializable {}
