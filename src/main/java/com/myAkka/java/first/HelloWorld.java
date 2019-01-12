@@ -1,4 +1,4 @@
-package com.myAkka.first;
+package com.myAkka.java.first;
 
 import akka.actor.*;
 

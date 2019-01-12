@@ -1,0 +1,1 @@
+![actor生命周期](https://img-blog.csdn.net/20170105154436428?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGl1YmVubG9uZzAwNw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
