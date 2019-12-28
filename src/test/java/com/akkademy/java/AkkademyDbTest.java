@@ -5,8 +5,8 @@ import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
 import akka.testkit.TestActorRef;
-import com.myAkka.java.project.message.AkkademyDb;
-import com.myAkka.java.project.message.SetRequest;
+import com.myAkka.java.project.jdb.AkkademyDb;
+import com.myAkka.java.project.jdb.SetRequest;
 import org.junit.Test;
 
 public class AkkademyDbTest {
