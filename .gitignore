@@ -27,3 +27,6 @@ hs_err_pid*
 /target/
 /.idea/
 /myAkka.iml
+/ch5/target/
+/ch5/ch5.iml
+/rpc/rpc.iml
