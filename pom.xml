@@ -23,6 +23,14 @@
     <modules>
         <module>ch5</module>
         <module>rpc</module>
+        <module>ch6</module>
+        <module>ch6-client</module>
+        <module>ch1</module>
+        <module>ch2</module>
+        <module>ch3</module>
+        <module>ch4</module>
+        <module>ch2-client</module>
+        <module>ch4-client</module>
     </modules>
 
     <properties>
@@ -35,6 +43,16 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.myAkka</groupId>
+                <artifactId>ch2</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.myAkka</groupId>
+                <artifactId>ch4</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
             <dependency>
                 <groupId>org.scalatest</groupId>
                 <artifactId>scalatest_2.11</artifactId>
@@ -87,6 +105,12 @@
                 <groupId>com.typesafe.akka</groupId>
                 <artifactId>akka-http_2.11</artifactId>
                 <version>10.1.7</version>
+            </dependency>
+            <dependency>
+                <groupId>com.typesafe.akka</groupId>
+                <artifactId>akka-contrib_2.11</artifactId>
+                <version>${akka.version}</version>
+                <!--<version>2.3.7</version>-->
             </dependency>
             <dependency>
                 <groupId>org.scala-lang.modules</groupId>

@@ -30,3 +30,5 @@ hs_err_pid*
 /ch5/target/
 /ch5/ch5.iml
 /rpc/rpc.iml
+/ch6/ch6.iml
+/ch6-client/ch6-client.iml
