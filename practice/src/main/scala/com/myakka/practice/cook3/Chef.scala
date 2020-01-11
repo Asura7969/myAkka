@@ -8,9 +8,7 @@ import scala.util.Random
 
 class Chef extends Actor with ActorLogging{
 
-
   log.info("Chef says: I am ready to work ...")
-
 
   //内部状态
   var currentSpecial: Cafe.Coffee = Cafe.Original
@@ -28,7 +26,6 @@ class Chef extends Actor with ActorLogging{
       else {
         currentSpecial = randomSpecial     //选出当前特饮
         log.info(s"Chef says: Current special is ${currentSpecial.toString}.")
-
         sender() ! currentSpecial
       }
     }

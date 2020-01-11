@@ -53,8 +53,7 @@ class Cafe extends Actor with ActorLogging {
       (for {
         item <- (chef ? Chef.MakeSpecial).mapTo[Coffee]
         sales <- (cashier ? RingRegister(item,sender())).mapTo[Sold]
-      } yield (Sold(sales.receipt))).mapTo[Sold]
-        .recover {
+      } yield (Sold(sales.receipt))).mapTo[Sold].recover {
           case _: AskTimeoutException => Customer.ComebackLater
         }.pipeTo(self)   //send receipt to be added to totalAmount
 
