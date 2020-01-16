@@ -32,6 +32,7 @@
         <module>ch2-client</module>
         <module>ch4-client</module>
         <module>practice</module>
+        <module>myAkka-kafka</module>
     </modules>
 
     <properties>
@@ -128,6 +129,12 @@
                 <artifactId>scalatest_2.10</artifactId>
                 <version>3.2.0-SNAP10</version>
                 <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.typesafe.akka</groupId>
+                <artifactId>akka-stream-kafka_2.13</artifactId>
+                <version>1.1.0</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/org.scalacheck/scalacheck -->
