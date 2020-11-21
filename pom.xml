@@ -21,18 +21,19 @@
         </plugins>
     </build>
     <modules>
-        <module>ch5</module>
-        <module>rpc</module>
-        <module>ch6</module>
-        <module>ch6-client</module>
-        <module>ch1</module>
-        <module>ch2</module>
-        <module>ch3</module>
-        <module>ch4</module>
-        <module>ch2-client</module>
-        <module>ch4-client</module>
-        <module>practice</module>
-        <module>myAkka-kafka</module>
+        <module>akka/ch5</module>
+        <module>akka/rpc</module>
+        <module>akka/ch6</module>
+        <module>akka/ch6-client</module>
+        <module>akka/ch1</module>
+        <module>akka/ch2</module>
+        <module>akka/ch3</module>
+        <module>akka/ch4</module>
+        <module>akka/ch2-client</module>
+        <module>akka/ch4-client</module>
+        <module>akka/practice</module>
+        <module>akka/myAkka-kafka</module>
+        <module>design</module>
     </modules>
 
     <properties>
